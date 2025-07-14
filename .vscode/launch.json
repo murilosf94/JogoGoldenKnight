@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--enable-preview" // Adicionado aqui
+        },
+        {
+            "type": "java",
+            "name": "MainClass",
+            "request": "launch",
+            "mainClass": "main.MainClass",
+            "projectName": "GoldenKnightGame_4e48f60d",
+            "vmArgs": "--enable-preview" // Adicionado aqui
+        },
+        {
+            "type": "java",
+            "name": "MainClass(1)",
+            "request": "launch",
+            "mainClass": "main.MainClass",
+            "projectName": "goldenknight",
+            "vmArgs": "--enable-preview" // Adicionado aqui
+        }
+    ]
+}
