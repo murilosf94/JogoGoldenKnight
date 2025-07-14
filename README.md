@@ -1,6 +1,6 @@
 # ⚔️ Golden Knight Game ⚔️
 
-Bem-vindo ao repositório do jogo Golden Knight! Este é um projeto de jogo 2D desenvolvido em Java.
+Bem-vindo ao repositório do jogo Golden Knight! Este é um projeto de jogo 2D desenvolvido em Java como projeto final da disciplina de Programação Orientada à Objetos do quarto semestre do curso de Engenharia da Computação da PUC-Campinas no ano de 2024.
 
 ## 🌟 Visão Geral do Projeto
 
