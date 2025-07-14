@@ -51,9 +51,7 @@ public class ObjectManager {
 			if (gc.isActive() && !gc.doAnimation) {
 				if (gc.getHitbox().intersects(attackbox)) {
 					gc.setAnimation(true);
-					int type = 0;
 					if (gc.getObjType() == BARREL)
-						type = 1;
 					return;
 				}
 			}

@@ -21,7 +21,7 @@ public class State {
 		return game;
 	}
 
-	@SuppressWarnings("incomplete-switch")
+	
 	public void setGamestate(Gamestate state) {
 
 		Gamestate.state = state;

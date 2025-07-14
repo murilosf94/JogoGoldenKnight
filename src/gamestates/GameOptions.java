@@ -89,14 +89,13 @@ public class GameOptions extends State implements Statemethods {
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		// TODO Auto-generated method stub
+		// metodo
 
 	}
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
-		// TODO Auto-generated method stub
-
+		// metodo
 	}
 
 	private boolean isIn(MouseEvent e, PauseButton b) {
