@@ -11,6 +11,7 @@ Golden Knight é um emocionante jogo de plataforma 2D que mergulha os jogadores 
 * `W, A, S, D` para controlar o personagem.
 * Botão esquerdo do mouse ou `O` para ataque básico.
 * Botão direito do mouse ou `P` para ataque com avanço (consome energia).
+* `Espaço` para pular.
 
 ## 🚀 Tecnologias Utilizadas
 
