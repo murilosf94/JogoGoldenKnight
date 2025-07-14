@@ -1,7 +1,23 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
+    // Configurações específicas para este workspace (projeto) no VS Code
+
+    // Configurações do Projeto Java (para o servidor de linguagem Java)
+    // O servidor de linguagem usa isso para entender a estrutura do seu código.
+    "java.project.sourcePaths": [
+        "src" // <<< MANTENHA APENAS 'src' AQUI SE SEU 'res' ESTIVER DENTRO DE 'src' (src/res/)
+    ],
+    // Adicione esta seção se você usa bibliotecas externas (arquivos .jar)
+    // Se você tem uma pasta 'lib' na raiz do seu projeto com JARs dentro:
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+        "lib/**/*.jar" // Inclui todos os arquivos .jar dentro da pasta 'lib' e suas subpastas
+    ],
+
+    // Configurações para a JVM que roda o Servidor de Linguagem Java
+    // Este é o processo que fornece o IntelliSense, análise de código, etc.
+    // Aumentar a memória pode ajudar em projetos grandes.
+    "java.jdt.ls.vmargs": "-noverify -Xmx4G -Xms256m -XX:+UseG1GC -XX:+UseStringDeduplication", // <<< Recomendado para desempenho
+
+    // Outras configurações gerais do editor ou extensões que podem ser úteis para o projeto
+    "editor.tabSize": 4, // Exemplo: define o tamanho da tabulação para 4 espaços
+    "java.debug.settings.enableHotCodeReplace": true // Habilita a substituição de código a quente durante a depuração
 }
