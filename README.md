@@ -41,7 +41,7 @@ Siga estas etapas para configurar e rodar o projeto em seu ambiente:
 Abra seu terminal (ou o terminal integrado do VS Code) e execute o seguinte comando:
 
 ```bash
-git clone [https://github.com/murilosf94/JogoGoldenKnight.git](https://github.com/murilosf94/JogoGoldenKnight.git)
+git clone https://github.com/murilosf94/JogoGoldenKnight.git
 ```
 Navegue para a pasta do projeto:
 ```bash
